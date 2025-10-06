@@ -1,0 +1,31 @@
+{
+  "name": "audio2face-3d-node-server",
+  "version": "1.0.0",
+  "description": "Node.js server for Audio2Face-3D integration with ElevenLabs TTS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test-grpc": "node test-grpc.js"
+  },
+  "keywords": [
+    "audio2face",
+    "elevenlabs",
+    "tts",
+    "animation",
+    "grpc"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.9.0",
+    "@grpc/proto-loader": "^0.7.10",
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
